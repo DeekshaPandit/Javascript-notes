@@ -1,0 +1,17 @@
+Higher order functions: 
+
+  In Javascript, functions can be assigned to variables in the same way that strings or arrays can. They can be passed into other functions as parameters or returned from them as well.
+  A “higher-order function” is a function that accepts functions as parameters and/or returns a function.
+  
+ Functions are called as First class objects.
+ They can co-exist with and can be treated like any other javascript object
+ 1) assigned to variables and properties of other objects.
+ 2) passed as arguments into functions
+ 3) returned as values from functions
+ 
+     obj = {a:1, b:2}
+     obj = function() {
+              return {a:1}
+          }
+          
+ 
